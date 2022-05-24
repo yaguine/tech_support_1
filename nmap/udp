@@ -1,0 +1,15 @@
+# Nmap 7.92 scan initiated Tue May 24 14:40:11 2022 as: nmap -sU --top-ports 2000 --min-rate 5000 -n -oN nmap/udp -vv 10.10.153.32
+Nmap scan report for 10.10.153.32
+Host is up, received echo-reply ttl 63 (0.090s latency).
+Scanned at 2022-05-24 14:40:11 CEST for 1s
+Not shown: 1994 open|filtered udp ports (no-response)
+PORT      STATE  SERVICE    REASON
+3664/udp  closed ups-engine port-unreach ttl 63
+23161/udp closed unknown    port-unreach ttl 63
+28344/udp closed unknown    port-unreach ttl 63
+38727/udp closed unknown    port-unreach ttl 63
+40019/udp closed unknown    port-unreach ttl 63
+47185/udp closed unknown    port-unreach ttl 63
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue May 24 14:40:12 2022 -- 1 IP address (1 host up) scanned in 1.23 seconds
